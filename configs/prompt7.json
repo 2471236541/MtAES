@@ -1,0 +1,77 @@
+{
+  "usage": "Reference settings from retained code and split manifests; original scripts do not automatically read this file.",
+  "dataset": {
+    "prompt": 7,
+    "essays": 1569,
+    "url": "https://www.kaggle.com/c/asap-aes/data",
+    "trait_labels": "rater1_trait1 through rater1_trait4",
+    "overall_label": "domain1_score",
+    "tsv_sha256": "cf04127eaff3224ce4aab64654e62e5738d3d672c61bb998546dd1674c60d312"
+  },
+  "splits": {
+    "outer_seed": 20260424,
+    "num_outer_folds": 5,
+    "stratify_by": "joint",
+    "min_stratify_count": 5,
+    "inner_seed": 20260425,
+    "refit_seed": 20260426,
+    "num_inner_folds": 3,
+    "inner_dev_ratio": 0.1,
+    "refit_train_ratio": 0.9,
+    "refit_dev_ratio": 0.1
+  },
+  "model_seeds": [
+    20260325,
+    20260412
+  ],
+  "qwen": {
+    "settings_source": "Current trait_analysis_pipeline.py implementation",
+    "model_name": "Qwen/Qwen-7B-Chat",
+    "max_new_tokens": 320,
+    "do_sample": false,
+    "top_p": 1.0,
+    "top_k": 50,
+    "implementation": "trait_analysis_pipeline.py"
+  },
+  "ideas_candidates": {
+    "model_names": [
+      "microsoft/deberta-v3-base",
+      "bert-base-uncased"
+    ],
+    "text_preset": "essay_head_tail",
+    "max_length": 320,
+    "epochs": 5,
+    "learning_rate": 3e-05,
+    "batch_size": 16,
+    "eval_batch_size": 32,
+    "weight_decay": 0.01,
+    "loss_mode": "ce_ordinal_weighted",
+    "ordinal_loss_weight": 0.2,
+    "class_weights": [
+      1.05,
+      1.45,
+      0.92,
+      1.15
+    ]
+  },
+  "ideas_gate": {
+    "direction": "both agree and nonzero",
+    "probability_threshold": 0.0,
+    "margin_threshold": 0.0,
+    "max_step": 3
+  },
+  "mapping": {
+    "weights": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "slope": 1.32,
+    "intercept": 3.04,
+    "clip": [
+      2,
+      24
+    ]
+  }
+}

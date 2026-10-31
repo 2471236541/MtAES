@@ -1,0 +1,10 @@
+{
+  "trait": "Conventions",
+  "questions": [
+    "Are there grammar errors?",
+    "Are there spelling errors?",
+    "Are punctuation marks used correctly?",
+    "Are capitalization rules followed?",
+    "Are sentence boundaries correctly formed?"
+  ]
+}

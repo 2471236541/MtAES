@@ -1,0 +1,258 @@
+{
+  "scope": "Unmodified Prompt 7 source code, question lists and reference configurations.",
+  "copied_files": [
+    {
+      "path": "apply_e90_e79_e87_outer.py",
+      "source_sha256": "ec2af989c7446f08f8cc0c87b4bd8d2d0f131a1325661ca4641249ee430eab93",
+      "copy_sha256": "ec2af989c7446f08f8cc0c87b4bd8d2d0f131a1325661ca4641249ee430eab93",
+      "identical_to_source": true
+    },
+    {
+      "path": "apply_fixed_org_consensus_rule_outer.py",
+      "source_sha256": "61f4f1f1a9e3c4023e99e858b0842a0231a2626660c0f647384409c86219caa4",
+      "copy_sha256": "61f4f1f1a9e3c4023e99e858b0842a0231a2626660c0f647384409c86219caa4",
+      "identical_to_source": true
+    },
+    {
+      "path": "audit_e90_outer_cleanliness.py",
+      "source_sha256": "33477d220c82a4f66a8bc6622c46fe9b119d41eb0ad984bb8eb3c8fa8e3fa78d",
+      "copy_sha256": "33477d220c82a4f66a8bc6622c46fe9b119d41eb0ad984bb8eb3c8fa8e3fa78d",
+      "identical_to_source": true
+    },
+    {
+      "path": "build_nested_inner_kfold.py",
+      "source_sha256": "7947d057918401847d493ec55491a87858e2fc91c080fb7bebb1580554e2cbfa",
+      "copy_sha256": "7947d057918401847d493ec55491a87858e2fc91c080fb7bebb1580554e2cbfa",
+      "identical_to_source": true
+    },
+    {
+      "path": "build_nested_outer_folds.py",
+      "source_sha256": "d3ff968d98ff48a1606385220aa7a2397a9cf65470a47a826efdc77502494d6f",
+      "copy_sha256": "d3ff968d98ff48a1606385220aa7a2397a9cf65470a47a826efdc77502494d6f",
+      "identical_to_source": true
+    },
+    {
+      "path": "collect_outer_metrics.py",
+      "source_sha256": "b656a8dc86ea20d43e4f10d2f73805988871f69444dbb35ab5cbd2928edc6c11",
+      "copy_sha256": "b656a8dc86ea20d43e4f10d2f73805988871f69444dbb35ab5cbd2928edc6c11",
+      "identical_to_source": true
+    },
+    {
+      "path": "eval_qwk.py",
+      "source_sha256": "51b7de545a595f7c56520340252ca52ffb59ab465bdada05fa5896837407df40",
+      "copy_sha256": "51b7de545a595f7c56520340252ca52ffb59ab465bdada05fa5896837407df40",
+      "identical_to_source": true
+    },
+    {
+      "path": "evaluate_qwk.py",
+      "source_sha256": "6d9c96f338f7c3e6c77e785bb437328bdc103b9c9b55ebd55803b7251f0b657d",
+      "copy_sha256": "6d9c96f338f7c3e6c77e785bb437328bdc103b9c9b55ebd55803b7251f0b657d",
+      "identical_to_source": true
+    },
+    {
+      "path": "gpu_auto_select.py",
+      "source_sha256": "a0232f694499d05c90e83e59b6b6dac6b6726a1e73e31a69d5d3cee637f96119",
+      "copy_sha256": "a0232f694499d05c90e83e59b6b6dac6b6726a1e73e31a69d5d3cee637f96119",
+      "identical_to_source": true
+    },
+    {
+      "path": "ideas_agreement.py",
+      "source_sha256": "1c4507b5e18c37fb1fcec7c3dad494ec69f78007702335e488f2e6fee87e8043",
+      "copy_sha256": "1c4507b5e18c37fb1fcec7c3dad494ec69f78007702335e488f2e6fee87e8043",
+      "identical_to_source": true
+    },
+    {
+      "path": "ideas_ensemble.py",
+      "source_sha256": "2c137a1831942014e5317271886615bdb1be412003f0d9b9b6a908be86d7abf8",
+      "copy_sha256": "2c137a1831942014e5317271886615bdb1be412003f0d9b9b6a908be86d7abf8",
+      "identical_to_source": true
+    },
+    {
+      "path": "infer_sidecar_bert.py",
+      "source_sha256": "799d2dd82a2005261a5c1e780677a5a0f3f86cd06c0deb79fe49238610870f3c",
+      "copy_sha256": "799d2dd82a2005261a5c1e780677a5a0f3f86cd06c0deb79fe49238610870f3c",
+      "identical_to_source": true
+    },
+    {
+      "path": "make_final_test_protocol.py",
+      "source_sha256": "84548af92171e64a58a88270662cb9749682c1ff45a5d1e72e0177fbcd7fe215",
+      "copy_sha256": "84548af92171e64a58a88270662cb9749682c1ff45a5d1e72e0177fbcd7fe215",
+      "identical_to_source": true
+    },
+    {
+      "path": "merge_conventions_consensus.py",
+      "source_sha256": "95f2d9dc4fd8b14c88b32ff10e98c3702a9493141dcdbbc2ddb734121b500683",
+      "copy_sha256": "95f2d9dc4fd8b14c88b32ff10e98c3702a9493141dcdbbc2ddb734121b500683",
+      "identical_to_source": true
+    },
+    {
+      "path": "merge_org_only_into_with_bert.py",
+      "source_sha256": "3794de62f4b533507876926ba4363c928837bc3f982240cde76823b5c37662e5",
+      "copy_sha256": "3794de62f4b533507876926ba4363c928837bc3f982240cde76823b5c37662e5",
+      "identical_to_source": true
+    },
+    {
+      "path": "merge_sidecar_gate.py",
+      "source_sha256": "128babdda6203b28b4f7a5b4f009a1b8fc5ab5a6d7afe371e601eab2be14fbdc",
+      "copy_sha256": "128babdda6203b28b4f7a5b4f009a1b8fc5ab5a6d7afe371e601eab2be14fbdc",
+      "identical_to_source": true
+    },
+    {
+      "path": "merge_style_sidecar.py",
+      "source_sha256": "d08585a69ac5802fea13e3f101dc4621a4125b8c5ddbd95297988f7587832f05",
+      "copy_sha256": "d08585a69ac5802fea13e3f101dc4621a4125b8c5ddbd95297988f7587832f05",
+      "identical_to_source": true
+    },
+    {
+      "path": "overlay_trait_from_selected_preds.py",
+      "source_sha256": "8c136dd5f8ad16aa8b1253d8d693456c304deecd608663e0e716a30fadbc24cb",
+      "copy_sha256": "8c136dd5f8ad16aa8b1253d8d693456c304deecd608663e0e716a30fadbc24cb",
+      "identical_to_source": true
+    },
+    {
+      "path": "prepare_sidecar_splits.py",
+      "source_sha256": "4b1b9cdea1bcfb70a650c478213ded6c661cbf63c8872e412d0fad50dc95daec",
+      "copy_sha256": "4b1b9cdea1bcfb70a650c478213ded6c661cbf63c8872e412d0fad50dc95daec",
+      "identical_to_source": true
+    },
+    {
+      "path": "prompt7_mapper.py",
+      "source_sha256": "e028c0bde6a0e401c0f768586fb7ca1e57338139cc102d4094f529caf9a99285",
+      "copy_sha256": "e028c0bde6a0e401c0f768586fb7ca1e57338139cc102d4094f529caf9a99285",
+      "identical_to_source": true
+    },
+    {
+      "path": "qwk_evaluator.py",
+      "source_sha256": "b8241e726f0c34978673a7914c22d6fb74b6612188c935517f48596958114a82",
+      "copy_sha256": "b8241e726f0c34978673a7914c22d6fb74b6612188c935517f48596958114a82",
+      "identical_to_source": true
+    },
+    {
+      "path": "replay_mainline_from_artifacts.py",
+      "source_sha256": "26a9ecd30b3f8eb2dbf89650d37087161dd74cb383e06333b3123e8bbd556de1",
+      "copy_sha256": "26a9ecd30b3f8eb2dbf89650d37087161dd74cb383e06333b3123e8bbd556de1",
+      "identical_to_source": true
+    },
+    {
+      "path": "run_e59_outer_sealed_once.sh",
+      "source_sha256": "b0ec9ea5ba0dd3a45503702e783dc7d35e9e87e9b99a3dd93ea8775fba9625d3",
+      "copy_sha256": "b0ec9ea5ba0dd3a45503702e783dc7d35e9e87e9b99a3dd93ea8775fba9625d3",
+      "identical_to_source": true
+    },
+    {
+      "path": "run_e90_outer_sealed_once.sh",
+      "source_sha256": "21779f67d0069e424ce1cdb04299c4b2274f368941dfe2275dd46008f4f19946",
+      "copy_sha256": "21779f67d0069e424ce1cdb04299c4b2274f368941dfe2275dd46008f4f19946",
+      "identical_to_source": true
+    },
+    {
+      "path": "run_prompt7_evaluation.py",
+      "source_sha256": "a1574a720bf1291e41a3ff1b22c4dfd1c70f4d7fcb1014c46a0d6d8d7e53fee7",
+      "copy_sha256": "a1574a720bf1291e41a3ff1b22c4dfd1c70f4d7fcb1014c46a0d6d8d7e53fee7",
+      "identical_to_source": true
+    },
+    {
+      "path": "run_sidecar_prod.py",
+      "source_sha256": "319d3a06ae0e31c8e2bb27065c55a1ae2cda52bc88fd42a531c4e046104672d3",
+      "copy_sha256": "319d3a06ae0e31c8e2bb27065c55a1ae2cda52bc88fd42a531c4e046104672d3",
+      "identical_to_source": true
+    },
+    {
+      "path": "run_v10_nested_pipeline.sh",
+      "source_sha256": "d34df63ccfca82c3331da027a6173b8aa22c4f94c44588f845b3bee2919be8d2",
+      "copy_sha256": "d34df63ccfca82c3331da027a6173b8aa22c4f94c44588f845b3bee2919be8d2",
+      "identical_to_source": true
+    },
+    {
+      "path": "select_and_apply_org_overlay_rules_oof.py",
+      "source_sha256": "8648d190a94ba94a97f04ac8fb55e2480d08ab36fa0a6f5d64fc972c68e36e20",
+      "copy_sha256": "8648d190a94ba94a97f04ac8fb55e2480d08ab36fa0a6f5d64fc972c68e36e20",
+      "identical_to_source": true
+    },
+    {
+      "path": "select_org_consensus_rules_dev.py",
+      "source_sha256": "d8d341ce5bd1d3929f5aae80ea41c105136fde87e794d6254278e324f374fa95",
+      "copy_sha256": "d8d341ce5bd1d3929f5aae80ea41c105136fde87e794d6254278e324f374fa95",
+      "identical_to_source": true
+    },
+    {
+      "path": "sidecar_text_preset.py",
+      "source_sha256": "6596f2f8c03806bdbb1a86217e0557b14eb9cbff026c11022b11951377491a05",
+      "copy_sha256": "6596f2f8c03806bdbb1a86217e0557b14eb9cbff026c11022b11951377491a05",
+      "identical_to_source": true
+    },
+    {
+      "path": "train_sidecar_bert.py",
+      "source_sha256": "2b97b8065a11d14f897e20da925c86d8d4079c9f994878749a37cbd555a64a61",
+      "copy_sha256": "2b97b8065a11d14f897e20da925c86d8d4079c9f994878749a37cbd555a64a61",
+      "identical_to_source": true
+    },
+    {
+      "path": "trait_analysis_pipeline.py",
+      "source_sha256": "ab2f316d139a1bc4d25f0605cb5affea57fd39201dd45c4c6d43ed7ee12c5b6d",
+      "copy_sha256": "ab2f316d139a1bc4d25f0605cb5affea57fd39201dd45c4c6d43ed7ee12c5b6d",
+      "identical_to_source": true
+    },
+    {
+      "path": "trait_questions_prompt7/conventions.json",
+      "source_sha256": "bfb0b9c842c7bba1f7ab711891f46bf477cb2ce80c39a977256ddfeaab3b94a6",
+      "copy_sha256": "bfb0b9c842c7bba1f7ab711891f46bf477cb2ce80c39a977256ddfeaab3b94a6",
+      "identical_to_source": true
+    },
+    {
+      "path": "trait_questions_prompt7/ideas.json",
+      "source_sha256": "741db9aa249031526678fb265381a5403687f4fa2b4b93009b9a403f1f289599",
+      "copy_sha256": "741db9aa249031526678fb265381a5403687f4fa2b4b93009b9a403f1f289599",
+      "identical_to_source": true
+    },
+    {
+      "path": "trait_questions_prompt7/organization.json",
+      "source_sha256": "17150b8b6e8512efae1c6de4c407a5a01c3dd496b5c6d56c16a388a254d4e3c7",
+      "copy_sha256": "17150b8b6e8512efae1c6de4c407a5a01c3dd496b5c6d56c16a388a254d4e3c7",
+      "identical_to_source": true
+    },
+    {
+      "path": "trait_questions_prompt7/style.json",
+      "source_sha256": "41628e01fff25370c85aa516877ff4051b9e2229c41bd4a39f3938d5eee92e05",
+      "copy_sha256": "41628e01fff25370c85aa516877ff4051b9e2229c41bd4a39f3938d5eee92e05",
+      "identical_to_source": true
+    },
+    {
+      "path": "verify_overall_mapping.py",
+      "source_sha256": "5632ee1f61155253ff733f09d290688222c5d6b41f33d273b9a49c96e940a042",
+      "copy_sha256": "5632ee1f61155253ff733f09d290688222c5d6b41f33d273b9a49c96e940a042",
+      "identical_to_source": true
+    },
+    {
+      "path": "write_outer_key_results.py",
+      "source_sha256": "7448ea69a6dadefb7bd472f774ee1c92526805fef1c1f764c8e990156e9270d5",
+      "copy_sha256": "7448ea69a6dadefb7bd472f774ee1c92526805fef1c1f764c8e990156e9270d5",
+      "identical_to_source": true
+    }
+  ],
+  "configuration_sources": {
+    "splits": [
+      "sidecar_data/v10_nested_protocol_iA_orgbest_mainline_clean_20260424/nested_outer_manifest.json",
+      "sidecar_data/v10_nested_protocol_iA_orgbest_mainline_clean_20260424/nested_inner_manifest.json"
+    ],
+    "split_ids": "Essay IDs read from each retained outer, inner and refit partition.",
+    "qwen": "trait_analysis_pipeline.py",
+    "candidate_training_and_gate": [
+      "run_e90_outer_sealed_once.sh",
+      "apply_e90_e79_e87_outer.py"
+    ],
+    "mapping": "prompt7_mapper.py",
+    "dependencies": "Installed package metadata in the existing Python 3.10 llm environment."
+  },
+  "excluded": [
+    "figures",
+    "plotting code",
+    "predictions",
+    "essays",
+    "reasoning caches",
+    "weights",
+    "logs",
+    "manuscripts",
+    "original Git history"
+  ]
+}

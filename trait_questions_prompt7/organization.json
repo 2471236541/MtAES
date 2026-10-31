@@ -1,0 +1,11 @@
+{
+  "trait": "Organization",
+  "questions": [
+    "Does the essay include a clear introduction?",
+    "Is there a logical progression of ideas?",
+    "Are body paragraphs clearly structured?",
+    "Does the essay include a conclusion?",
+    "Are transitions used effectively?",
+    "Is the sequence of events clear?"
+  ]
+}
